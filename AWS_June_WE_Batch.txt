@@ -1,0 +1,1888 @@
+Keyur - 7387029671
+
+amazon Prime
+
+Netflix
+
+AWS Certification- 100% scenario based Qs
+
+
+3 diff AWS Certi paths
+------------
+1. Solution Architect
+		Level 1: Associate -- very poular
+		Level 2: Professional
+2. Developer Exam -- ** good grasp of one of the programming language (java, .net, python etc..)
+		Level 1: Associate
+		Level 2: Professional
+3. SysOps admin
+4. Security Speci
+
+All MCQ. All Scenario based Question. No Theoretical Qs.
+--> in Interview, Scenario based Question.
+
+
+65 Qs
+130 min
+
+credit card/ debit card
+
+No RUPAY card.
+
+===============
+
+What is Cloud Computing?
+
+aws / gcp / Azure - Alibaba
+DS -
+
+-------------
+virtual machine/server
+storage
+memory
+publish website
+develop application
+infra managed by Cloud vendors -
+secure and safe file sharing
+lower cost
+resources avaialble over Internet
+large scale compute power
+multi-tenancy
+multi-tasking -- all computer can do
+
+
+-----------
+
+cloud comuting is a delivery model of Compute resources like CPU, RAM, Storage, Database, OS, Applications
+the services are avaialble over Internet
+these resources will remain located in Cloud Vendor's (AWS, Azure, GCP, Alibaba etc.) Data Center
+at a REMOTE location
+you will pay per usages (pay-as-you-go model)
+
+
+Region- Logical 
+Mumbai - AP-South-1
+
+-Availibity Zone - min 3 highly avaialble - Actual DS
+AP-South-1a
+AP-South-1b
+AP-South-1c
+AWS backbone N/W - AWS Private Line
+80 to 100 km diff
+
+
+Softwares required
+-----------
+1. AWS CLI === https://awscli.amazonaws.com/AWSCLIV2-version.number.msi
+2. Putty ==== https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+3. Puttygen ---it's with putty now
+4. WinSCP
+https://www.googleadservices.com/pagead/aclk?sa=L&ai=ChLYqQCKUYs_9MpOavQS-wpnIBpy4za1qsMzWq-IPjK_JvpYOEAEgnsWMJGDlgoCAvA6gAfKkms0oyAEBqAMByAPLBKoE2wFP0Kp6vYOycY_RK7bKoEfFYPu1zExGCMshX_Q948qrCptrIufpzKzl-T4BU86Rtxp3NzyDrPnGKzjJ08kWEgkxGeQi_NFzlwKo-ozl79-hG3TKSsFXvyaBzWzYz3kmxwkg-U4GcYDbcg51IKrTTQ_FkjnmE4jx8eKq3VKeM4-KGBTHP49gvVcm_tCycNkMy-LTiGMrLVhwYqlaGPO3v4PmJ2crjdDmGFSWNsj9K1b3aIFCH95fLcZV3sOL9anoSJoFm0R0l_HZsjOb-hxiOHR3r1fX57T5vPS8FADABNKoktX7A4AH8tzqrAOoB47OG6gHk9gbqAfulrECqAf-nrECqAeko7ECqAfVyRuoB6a-G6gH89EbqAeW2BuoB6qbsQKoB9-fsQLYBwHSCAcIgGEQARgfsQn7BOpLKYgwBoAKAZgLAcgLAbgMAdgTDNAVAZgWAfgWAYAXAQ&ae=1&num=1&cid=CAASJeRog0dtvUzK1lQNQwkF0WA4mLqkod9Zi6pPeed7GKzNGUmDZyE&sig=AOD64_0oDE19RcNmvT72SDja1TGT2lNP8Q&client=ca-pub-1682759925159355&nb=8&adurl=https://chrome.google.com/webstore/detail/microsoft-rewards/fbgcedjacmlbgleddnoacbnijgmiolem%3Futm_source%3Dbgads%26utm_medium%3Dga%26utm_campaign%3Drwddus%26utm_content%3Dpmxshp%26gclid%3DEAIaIQobChMIz52nvY2G-AIVE02PCh0-YQZpEAEYASAAEgL8ZvD_BwE
+
+AWS FRee Trail Account
+---------------------------
+12 months free of cost -- 
+750 hours per months - ec2 
+30GB storage--
+
+** 1 year later --
+noramal -  
+
+{"name":"keyur","city":"surat"}
+name,city
+keyur,surat
+
+regional services - ec2 - region - not movable
+global service - iam -
+
+
+----
+======== IAM	=============
+
+IAM is a global service. IAM does not require region selection.
+
+IAM is free-of-cost. 
+
+
+Two types of users in AWS
+----------------
+1. Root user -- who has created the account. 
+who will be paying the bills. the highest accesses
+2. IAM user -- which will be created by ROOT user for further 
+work/access/management/activities. Restricted access.
+
+two types of Access granted to an USER
+-----------------
+1. AWS Management Console access --Enables a password that allows users to sign-in to the AWS Management Console.
+
+2. Programmatic access- Enables an "access key ID" and "secret access key" fo
+
+keyur@331026266777
+
+Tags (optional)
+---------
+
+IAM tags are key-value pairs you can add to your user. Tags can include user information, such as an email address, or can be descriptive, such as a job title. You can use the tags to organize, track, or control access for this user
+
+JSON- javascript object notataion
+csv, tsv
+dfghj	fhgyhkujl	fghjujk	fghjk	ghjkl
+dfghj,dfghj,dtyguhij,rtyguhij,rtyfugihj
+{"name":"keyur","mobileNo":"7387029671"} - JSON
+key:value
+key:value
+
+
+ARN (amazon resource name)
+--------
+	arn:aws:iam::560854431334:user/keyur
+
+	arn:aws:iam::aws:policy/IAMReadOnlyAccess
+ 
+the method of nomenclature 
+
+
+
+Policy ( access/permission/granting access...only only Policy)
+----------
+The only way in which you can grant permission to an entity ( user/ group/ Role)
+
+set of permissions
+
+JSON- JSON (JavaScript Object Notation) 
+is a lightweight data-interchange format. 
+It is easy for humans to read and write. 
+It is easy for machines to parse and generate.
+
+
+We will attach Policy to a user and then USER will get all the permissions avaialble in that Policy
+
+
+Types of policy
+----------
+1. inline policy -- need to create one policy for one user. not reusable. 
+will not be suitable to be used.
+				 -- deleted a USER, 
+				 related Policy that will also be deleted
+2. managed policy -- it is reusable. One policy can be attached to multiple users. 
+Who will create/maintain policy?
+		1. customer managed policy -- you will create/maintain policy. 
+		not everyone is comfortable in JSON
+		2. AWS managed policy -- AWS has created alot of policies. 
+		which can be used by USERS.
+
+
+Key:value
+Dictionary
+
+parse: to read, to scan through
+
+
+IAMReadOnlyAccess
+
+
+User Groups
+----------------
+a collection of Users who wants to share same access level
+
+
+
+MFA ( multi factor authentication)
+----------------------
+2nd factor to authenticate your Root account.
+
+Can be enabled at IAM user also.
+
+Roles
+----------
+-----------
+Roles in AWS
+
+it is a trust between two service to access each other
+
+
+Access Key ID:
+AKIAYFFMHOZTHDNIP55A
+Secret Access Key:
+h3au4uSVQbZ18zBdIUxOPL03uVfHIrjBCpi8N5zU
+
+
+Admin group has been create. now add ROHAN user in that
+
+Attach IAMReadOnlyAccess to Admin group.
+
+
+
+
+
+aws iam attach-user-policy --policy-arn arn:aws:iam::aws:policy/IAMReadOnlyAccess --user-name sfdgfhcjvkjb
+
+aws iam attach-group-policy --policy-arn arn:aws:iam::aws:policy/IAMReadOnlyAccess
+
+
+Most of activities which can be performed from AWS Console, can also be performed with AWS CLI.
+
+
+===================
+
+===========  Storage	===============
+
+There are two types of storage in Cloud-
+1. object store -- all types of files can be stored- txt, binary, audio, video, image, .exe, backup etc.. 
+All these files are avialble over the Internet -- 
+to relate ..it is like the Google Drive -- No OS expansion, No App installation
+
+2. block store -- all types of files can be stored- txt, binary, audio, video, image, .exe, backup etc.. 
+All these files are not available over the Internet -- 
+just like the DISK in your VM -- EBS ( elastic Block service) -- will OS expansion, will App installation
+
+
+S3 - Simple storage service -- 2006
+-----------
+
+S3 is a global serice. 
+
+is an "object store" in AWS
+
+objects -- are files only but here we shall call then Object
+
+Buckets are containers for data stored in S3. 
+
+Bucket name must be unique and must not contain spaces or uppercase letters.
+
+Bucket name must be globally DNS complaint.
+
+
+arn:aws:s3:::ethans202205
+arn:aws:s3:::ethans202205/1.txt
+
+
+https://
+ethans272711.
+s3.
+ap-south-1.
+amazonaws.com/
+1.txt
+
+
+
+
+arn:aws:s3:::ethans785
+arn:aws:s3:::ethans785/12062021.txt
+
+Req- How to make an object Public?
+Solution- Objects can be made public only when the bucket is Public. 
+Make you Bucket public and then make the Object Public.
+
+Bucket Versioning 
+-------------
+What?
+Why?
+
+GIT
+
+Rollback
+
+file1.txt			base_version
+file1.txt			version_one
+
+Can my computer perform versioning?
+No
+
+100mb
+101mb
+105mb
+110mb
+===========
+416 mb
+
+Static website hosting
+---------------------
+
+Dynamic Website - amazon.in, net banking, MMT
+Static website - wikipedia, TOI, blogging website
+
+
+server site scripting
+
+
+http://aws-ethnas-tutorial.s3-website.ap-south-1.amazonaws.com/index.html   --ROUTE 53-> www.mywenb.com
+
+
+
+Storage Class in S3
+--------------------------
+1. standard -- at least 3 AZs
+6. Intelligent tiering -- it check the access patter of your file using AWS's own AI algo.
+ cost saving compared to other storage class.
+2. standard Infrequent access -- 
+3. One Zone- IA
+4. Glacier
+5. Deep Glacier
+
+Q- can a bucket have multiple objects in different storage class?
+Ans- Yes
+
+durability -- related to file loss (11 9s)
+availability -- when you demanded the file, at that time how quickly you got access
+
+Req- I am into a Credit Card division of HDFC bank. CC statements get 
+generated 4 times/cycles in a month 
+(4th, 13th,21st,29th). Let the Statement be in "Frequently accessed" class for 
+1st 3 months. 
+After that, move statements into "in Frequently accessed" class. 
+After 1 year, move it into archive.
+ After 5 years, then delete it.
+ 
+ 
+Ans- Lifecycle Management Rule
+
+Lifecycle Management Rule
+--------------------
+Use lifecycle rules to define actions you want Amazon S3 to take during an object's lifetime 
+such as transitioning objects to another storage class, archiving them, or deleting them after a 
+specified period of time.
+
+
+Q- can a single bucket has multiple Lifecycle rules?
+
+A- yes you can
+
+
+Req- I have a source bucket (in mumbai region). If I upload a new file in my source bucket, 
+then it should be uploaded in my target bucket (in singapore region).
+
+Solution- Object Replication
+
+Object Replication two types
+----------
+1. CRR (cross region replication) -- source and target buckets will be in diff regions
+2. SRR ( same region replication) -- source and target buckets will be in same region
+
+** both the source and target buckets must be versioned
+
+CRR will be costlier compared to SRR.
+
+** can be done in Your own AWS's account buckets or diff AWS's account bucket.
+
+** we need an IAM Role.
+
+
+Q- What are the factors/variables on which cost of S3 will depend?
+--------------------------------
+
+S3 Pricing
+-----
+1. Region-
+2. amount of data
+3. storage class
+4. access (no of reads/writes/modifications etc.) pattern
+5. data tarnsfer charges ( in same region very less, cross region high charges)
+6. etc
+
+
+Read/ write
+
+100 mb file- 1M times read
+100 mb file- 100 times read
+
+
+------CROSS account Bucket/Object share----
+
+Q- How to share Bucket with other AWS account & also with other AWS account IAM USER?
+
+ACL (Access Control List)
+--------------------
+
+can only grant basic read/write permission
+
+
+two types of permission strategy
+-----------------
+1. fine grained access control -- minute level of access can be conrolled- 
+list the files but not read the contents of the file
+2. coarse grained access control- basic read/write/execute -- ACL
+
+
+Q- How to share Bucket with other AWS account & also with other AWS account IAM USER. 
+But grant only LIST permission.
+
+Ans- ACL cant work here.
+
+BUCKET POLICY will work here.
+-------------
+The bucket policy, written in JSON, 
+provides access to the objects stored in the bucket.
+
+IAM Policy will be attached to USER/Groups/Role.
+BUCKET POLICY will be created on an individual bucket.
+
+
+HTTP Methods		Original activity
+--------------		------------------
+POST				Create
+GET					Read
+PUT					Update/Replace
+PATCH				Update/Modify
+DELETE				Delete
+
+
+
+
+
+
+
+
+
+
+
+
+Q- can we change the name of bucket?
+Ans- NO
+
+Q- How many buckets can be there in an account?
+Ans- no limit
+
+Q- How many objects can be there in a buckets in an account?
+Ans- no limit
+
+Q- What can be the maximum size of a bucket?
+Ans- no limit
+
+Q- What is the maximum size of an individual object in a bucket?
+Ans- max size is 5 TB
+
+Individual Amazon S3 objects can range in size from a minimum of 0 bytes 
+to a maximum of 5 terabytes.
+
+Q- if i have a object of 5 TB, 
+can I upload it, the way we have been uploading the object till now?
+
+Ans- Not possible
+
+Q- limit on the size of object which can be uploaded in single PUT operation?
+Ans- 5 GB
+
+AWS Recommendation- any object bigger than 100mb 
+should be uploaded using MULTIPART UPLOAD
+
+MULTIPART UPLOAD
+----------------
+Multipart upload allows you to upload a single object as a set of parts. 
+Each part is a contiguous portion of the object's data. 
+You can upload these object parts independently and in any order. 
+If transmission of any part fails, you can retransmit that part without 
+affecting other parts. 
+After all parts of your object are uploaded, 
+Amazon S3 assembles these parts and creates the object. 
+In general, when your object size reaches 100 MB, 
+you should consider using multipart uploads instead of uploading the 
+object in a single operation.
+
+
+Req- There is a matrimony portal, having a dataset (image/video/audio/profiles/location) 
+of 200 TB. 
+All data in on-prem setup. Now they want to move into AWS- S3.
+
+Solution- upload over Internet is not feasible option.
+
+AWS SNowball
+
+Hello  ---  Encryption -->  wqerty3456       --- Decryption --> Hello
+
+Plain Text					Cipher Text
+
+AWS Snowmobile
+
+
+
+----------------------
+
+----------------------------
+
+EC2 (elastic cloud compute)
+-------------------
+instance/ server/ VM/ compute  -- they all can be intrerchangibly used
+
+just like a server, or a Virtual machine or like my own computer
+
+What is a virtual machine?
+
+Types of Ec2 instance based on the compute nature
+-----------------------
+1. general purpose  -- 
+2. compute optimized -- will have high end CPU/processor configuration compared to 
+rest other parameter
+3. memory optimized -- will have high memory ratio. 
+- want to perform cache operation
+4. storage optimized -- will have high storage capabilities compared to other parameters
+5. GPU enabled -- speciaqlized with Graphics card, 
+gamesing, video encoding, deep learning, NEURAL DESIGN
+
+
+Types of Ec2 instance based on the reservation model
+-----------------------
+
+1. on-demand instance -- will be the costliest, 
+almost 60% costlier than the RI
+2. reserved instance (RI) -- you will reserve instance for a 
+specified period of time -- 1 year or 3 years
+
+				there are three payement models of RI
+				
+					1. all upfront -- the cheapest option  -- 1000
+					2. partial upfront -- half downpayemnt + other half in eqauted monthly insta (EMI) 
+															-- 500 + 600/12 = 1050
+					3. no upfront -- costliest -- 1100
+
+3. spot instance -- AWS will let the unused compute to offer at a very discounted rate
+					You have the option to request Spot Instances and specify the 
+					maximum price you are 
+					willing to pay per instance hour. 
+					If you bid higher than the current Spot Price, 
+					your Spot Instance is launched and will be charged at the current Spot Price. 
+					Spot Prices often are significantly lower than On-Demand prices, s
+					o using Spot Instances for flexible, 
+					interruption-tolerant 
+					applications can lower your instance costs by up to 90%.
+					
+					
+					
+
+Based on Tenancy instances are classified into two types
+------------------------
+1. Shared tenancy model - it is the default option
+2. Dedicated tenancy model -- it is extremly costly, 
+not very good option in prod servers
+
+
+in RI two types of offerings
+------------------
+1. standard
+2. convertible
+
+
+3 years t2.micro 3000 INR all upfront
+		1 year 1000 deduct == 2000 
+
+
+t2.xlarge -- 1500 per year
+
+
+In Free Trail account - t2-micro
+-------------
+750 hours of t2.micro in a month
+
+1 * 24 * 31 days = 744 ~~ 750
+
+2 * 24 * 15 days = 720
+
+3 * 3 * 30 days = 270
+
+4 * 24 * 8 days
+
+
+Amazon Machine Image (AMI)
+---------
+
+
+RDP - rempte desktop protocol -- a windows server from a windows computer -- port 3389
+SSH -- secured shell connection- a linux server from my Windows computer  -- port 22 
+HTTP -  80
+HTTPS - 443
+---Putty---
+
+
+port
+airport
+passport
+
+
+SSH Key pair
+----------
+-- Pubic Key (AWS will store it and will also be injected in the instance) 
+++ Private key ( you have to store it). They are mathematically related. KARAN - ARJUN
+
+At every login on instance, you will provide Private key, which AWS will match with the Public key. If they both recognises each other, then you will be allowed to login. 
+
+A key pair consists of a public key that AWS stores, 
+and a private key file that you store. 
+Together, they allow you to connect to your instance securely.
+
+You have to download the private key file (*.pem file) before you can continue. 
+Store it in a secure and accessible location. 
+You will not be able to download the file again after it's created.
+
+PEM- privacy enhanced mail 
+
+What is an IP? need?
+-----------------
+XXX.XXX.XXX.XXX
+
+a unique numbers, associated with a computer to communicate in a network ( LAN, WAN ,WWW)
+
+XXX from 0 to 255
+
+Public IP -- which can be used on Internet  -- it is unique across globle -- mobile num
+Private IP -- can only be used within a network  -- office desk extn number -- 
+can be duplicate i.e. in one network a Pvt IP can be ther, 
+same pvt IP can be there in another private network -- TCS
+
+
+Putty-- will help you to connect a Linux Instance from a Windows computer
+
+In order to work with Putty, you would not be able to use the .PEM file.
+
+
+.PEM file as input ---->   Puttygen   ------------>  .PPK file
+
+PPK- putty private key
+
+
+Linux you need a web host platform called Apache HTTP.
+
+Windows you need a web host platform called IIS.
+
+:
+;
+~  -- tilde
+&  -- ampersand
+
+
+drwxr-xr-x
+
+
+d  -- will determine if it is a directory or a file. if it is "d", then it is directory, 
+if it is "-" then it is a file
+rwx -- what will be the permission on this file which "OWNER" of this file will enjoy
+r-x -- what will be the permission on this file which "GROUP of OWNER" of this file will enjoy
+r-x -- what will be the permission on this file which "OTHERS/WORLD" of this file will enjoy
+
+777
+4+2+1 = 7 
+
+400
+
+chmod 
+
+File
+10000 lines 
+GREP
+
+
+
+Relative paths -- 
+Absolute path
+
+
+to convert a ec2 instance into a webserver
+-------------
+sudo su -
+yum update -y
+yum install httpd -y
+
+cd /var/www/html 
+				vi index.html
+				you need to type "i" for insert mode
+						"write your content and save it"
+				Esc Shift + : x (for save file)
+d	d - directory - file
+rwx --owner
+r-x --group
+r-x	--public / others			
+-
+rw-    4-read 2- write 1-execute
+r--
+r--
+chmod 766 
+rwx
+r-x
+r-x
+						
+service httpd start
+service httpd status
+
+================
+
+Volume/ EBS ( elastic block storage)
+
+1. Root Volume -- mandatory ( just like the C:// drive becuase it contains all OS related files/folders)  
+-- name must always be "/dev/xvda"
+2. Additional volume -- optional
+
+Types of EBS volume
+--------------------
+
+1. SSD ( solid state drive) -- they are costly than HDD
+		1. general purpose  (gp2 / gp3)
+		2. Provisoned IOPS (io1/io2/io3)
+2. HDD ( hard disk drives)
+		1. sequential throughput optimized (st1) -- 
+		big data, data warehousing, log processing
+		2. sequential cold (sc1) / cold HDD 
+		( archival purposes, infrequntly accessed data)
+Magnetic -- previous gen volume
+		
+
+Throughput -- measures the number of bits read/write per second 
+-- measure the amount of data transferred in a sec
+IOPS -- measures the number of read/write operations per second 
+-- number of operations performed in a sec
+
+
+Q- can I choose all types of EBS volumes as my ROOT volume?
+Ans- HDD types are not avaialble. SSD and Magnetic are avaialble.
+
+Q- can I choose all types of EBS volumes as my Additional volume?
+Ans- Yes, all HDD, SSD & magentic
+
+
+Free tier eligible customers can get up to **30 GB** of EBS 
+**General Purpose (SSD)** or **Magnetic storage**.
+
+
+** Size and Type both can be modified.
+** The size of a volume can only be increased, not decreased.
+
+Q- can this volume be detached from this machine? to attach it to another instance?
+Ans- yes
+
+Q- can an EBS volume be attached to multiple ec2 instances at the same time?
+Ans- NO
+3.110.31.216
+3.110.179.107
+
+13.232.18.60
+13.232.18.60
+Q- can i detach the ROOT volume?
+Ans- No. You cant detach ROOT volume from a RUNNING instance. 
+Additional volumes can be attached/detached when the instance is RUNNING. 
+If the ROOT volume is not attached to an instance, then it cant be STARTED.
+
+
+Q- will the billing of STOPPED instance be ZERO?
+Ans- It will not be ZERO, but it will be almost nulls, very less amount of bill.
+
+
+
+@@  When you STOP instance, the PUBLIC IP will get lost.
+
+
+@@  When you REBOOT instance, the PUBLIC IP will not be changed.
+
+
+IPv4 is a SCARCE resource. It has huge demand but not matching SUPPLY.
+Can we increase the Supply of IPv4
+0-255.0-255.0-255.0-255
+
+Total number of avaialble IPv4 = 2^32 == 4.2 billion
+
+XXX.XXX.XXX.XXX
+
+XXX- 0 to 255. Total number = 256 = 2^8
+
+0.0.0. 0- 255
+0.0.1.0-255
+
+@@ Public IP of ec2 instance is dynamic ( will be changed at every STOP --> START)
+
+@@ can I create a Static Public IP -- ELASTIC IP
+
+15.207.108.107
+43.205.77.135
+##### Rules of Elastic IP
+
+1. elastic IP is very very costly
+2. if you have allocated an EIP, and you have not attached it to any instance, 
+then we are going to charge you heavily
+3. if you have allocated an EIP, 
+and you have attached it to a instance, and the instance in in STOPPED 
+state then we are going to charge you heavily
+4. if you have allocated an EIP, and you have attached it to an instance, 
+and the instance is in RUNNING state, then we are not going to charge you
+
+
+
+---------------
+
+Windows instance --
+
+EBS Termination -- Delete on Termination Button the EBS page while creating instance
+-------------
+
+EBS volumes persist independently from the running life of an EC2 instance. However, you can choose to automatically delete an EBS volume when the associated instance is terminated.
+
+If it is ON, then that volume will be terminated when the instance will be terminated.
+
+If it is OFF, then that volume will be remain in your account when the instance will be terminated.
+
+EBS volumes which do not have "Delete on Termination" set to true will persist after this instance is terminated.
+
+Public DNS	ec2-65-2-31-179.ap-south-1.compute.amazonaws.com
+User name	Administrator
+Password	
+uN4vC4WjzoK$Lc3U3Ek!6%YfGK;2KPOd
+Close
+
+
+Snapshot
+---------
+the point-in-time backup of EBS volume
+it will be stored in S3, not in your S3 bucket, it will be in AWS's system S3 bucket
+incremental backup
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html
+
+Q- can i move my EBS volume from one AZ to another AZ?
+Ans- yes can be done but not at the hardware level. Data level movement is possible. 
+Create a SNAPSHOT, restore that SNAPSHOT into volume and there select the AZ
+
+lsblk ===list block devices
+df -h === file system
+
+In Linux instances, when you will create and attach a VOLUME, two tasks to be performed--
+1. create a mountpoint
+2. create a file system
+
+mkfs.xfs /dev/xvdf -- created fs
+
+mkdir /myadditionalvalume
+
+mount /dev/xvdf /myadditionalvalume
+
+xfs_growfs /dev/xvdf
+
+
+USER DATA SCRIPT (UDS)
+---------------------
+
+Bootstrap script
+
+You can specify user data to configure an instance or run a configuration 
+script during launch.
+
+#!/bin/bash
+sudo su -
+yum update -y
+yum install httpd -y
+systemctl start httpd.service
+systemctl enable httpd.service
+hostname >> /var/www/html/index.html
+echo "Hello Radhe Krishna..." >> /var/www/html/index.html
+
+#include<math.h>
+
+#!  -- shebang
+DemoELB-1603908131.ap-south-1.elb.amazonaws.com
+/bin/bash
+
+ksh
+csh
+bash 
+
+shell
+
+colonel
+
+hostname >> /var/www/html/index.html
+
+
+
+cd /var/www/html
+
+		vi index.html
+
+
+>     --->  single redirection operator ( overwrite )
+>>    ---> double redirection operator ( it will APPEND- to write at the last)
+
+
+Q- i have created a UDS. That had some issues and now i want to modify 
+and then execute it. How can I do?
+Ans- UDS can run only once at the time of instance provisioning.
+
+
+========================
+
+=============		VPC		============
+
+private network in AWS
+it is free of cost
+
+Default VPC- preconfigured by AWS in all Regions to work on it.
+Custom VPC- create by a user
+
+
+Public IP -- which can be used on Internet  -- it is unique across globle -- mobile num
+
+Private IP -- can only be used within a network  -- office desk extn number -- 
+can be duplicate i.e. in one network a Pvt IP can be ther, same pvt IP can be 
+there in another private network -- TCS
+
+TRAI - telephone reg auth of india
+IANA -- Internet assigned Number Authority - Global
+
+
+IPv4 -- considering this alone
+
+11.12.13000.140000 - invalid ip
+
+0-255 . 0-255 . 0-255 . 0-255 - the valid IP pattern
+
+These 3 ranges will be private IP. Apart from these 3 defined pvt IP ranges,
+ all other remaining IPs are public
+-------------------
+10.0.0.0 to 10.255.255.255 ( any IP starting from 10 is a pvt IP )
+172.16.0.0 to 172.31.255.255 ( 172.16-31.0-255.0-255,any IP starting from 172, whose 2nd octet is between 16 and 31 are pvt IP)
+192.168.0.0 to 192.168.255.255 ( any Ip starting from 192, whose 2nd octet is 168, is a pvt ip)
+
+
+
+
+10.11.12.13 - private
+172.156.256.356 -- invalid
+172.16.17.18 -- private
+192.167.168.169 -- public
+192.169.17.180 -- public
+arn:aws:iam::331026266777:user/viru
+arn:aws:s3:::virubucket
+
+** To create a VPC, we need a CIDR
+
+
+CIDR- classless inter domain routing
+
+CIDR block -- "PVT IP/Prefix"
+
+
+Prefix -- 16 to 32 . it will decide the size of the network.
+
+CIDR block = 10.0.0.0/16. the number of available IPs in this CIDR = 2^(32-Prefix) = 2^(32-16) = 2^16 = 65536
+
+CIDR block = 10.0.0.0/24. the number of available IPs in this CIDR = 2^(32-Prefix) = 2^(32-24) = 2^8 = 256
+
+CIDR block = 10.0.0.0/28. the number of available IPs in this CIDR = 2^(32-Prefix) = 2^(32-28) = 2^4 = 16
+
+CIDR block = 172.16.0.0/16. the number of available IPs in this CIDR = 2^(32-Prefix) = 2^(32-16) = 2^16 = 65536
+
+CIDR block = 192.168.0.0/16. the number of available IPs in this CIDR = 2^(32-Prefix) = 2^(32-16) = 2^16 = 65536
+
+CIDR block = 172.18.0.0/28 = 16
+
+Subnet- Sub network (SN)
+---------------------
+
+/16 (65536 IPs) is the max you can go in AWS VPC 
+/28 (16 IPs) is the min you can go in AWS VPC 
+
+
+10.0.1.0 
+10.0.1.1
+10.0.1.2
+10.0.1.255
+
+10.0.2.0
+10.0.2.1
+10.0.2.2
+10.0.2.255
+
+
+30 instances -- 100
+
+
+1. SNs cant be nested. One SN cant be created within another SN.
+2. a SN can never be bigger than VPC. at max it can be as big as the VPC, 
+then in that case no other SNs can be created.
+3. the number of SNs which can be created in VPC will be decided by the number 
+of avaalble IPs in the VPC.
+4. SN's CIDR Address must be within CIDR Address of VPC.
+
+
+VPC- 10.0.0.0/16 
+Subnet- 10.0.0.0/24 
+
+We will create a CUSTOM VPC.
+A DEFAULT VPC will be there in all AWS regions.
+
+** a VPC is a regional service i.e. it will remain in a region. 
+a single VPC cant span regions.
+** a SUBNET will be locked in an AZ. one SN cant span multiple AZs.
+** an IgW can only be attached to one VPC at a time
+** a VPC can only have one IgW. There is strict one-to-one relationship 
+i.e. one VPC <--> One IGW
+
+STEPS to create Custom VPC N/W
+-------------
+1. create a VPC ( 10.0.0.0/16)
+2. create two subnets. ( /24 prefix)
+3. create an Internet Gateway (IgW) -- is the entry/exit point of Internet traffic in your VPC. 
+If your VPC needs Internet connectivity either inbound/outbound then IgW is required. 
+An internet gateway is a virtual router that connects a VPC to the internet.
+	After you create IgW, now attach to a VPC to enable the VPC to communicate with the internet.
+	
+4. Create Route Tables for each SN.
+5. Go To Subnet, modify "auto-assign-public-IP" setting.
+
+Main Route Table
+-----------
+when you create a VPC, at that time only, a main RT will get created. 
+Why? -- to enable local route communication
+What? -- so that any instance in that VPC can communicate with any other instances in the same VPC.
+
+All the SNs of a VPC, will be associated to MAIN RT at the time of creation. 
+This is called Implicit association.
+
+Two types of SUBNET ASSOCIATION with a RT
+-----------------------------
+1. Implicit association -- the attachment which has happened on its own
+2. explicit association -- which we will do deliberately
+
+by default subnets have not been explicitly associated with any route tables 
+and are therefore associated with the main route table:
+
+Reserved Ip
+--------------
+in any Subnet, 5 IPs will be reserved by AWS and only 251 usable IPs.
+
+If the Subnet CIDR is- 10.0.1.0/24
+
+10.0.1.0  -- will be reserved for the network address - sn address
+10.0.1.1  -- will be reserved for an inbuilt hidden local router which will help the local communication in VPC
+10.0.1.2  -- will go for DNS/DHCP purpose
+10.0.1.3  -- reserved for future use
+10.0.1.255 -- for broadcasting purpose , but broadcasting is not allowed in any of Cloud env (AWS/Azure/GCP)
+
+
+unicast - 1-1
+multicast - 1- m - (in some group)
+broadcast - 1 - n --
+
+ws
+184.72.66.90 - public-IPip
+10.0.1.15 - private-ip
+
+ds
+- public-IP
+10.0.2.8 - private-ip
+
+
+============ws=============
+
+Private IP address
+ 10.0.1.15
+User name
+ Administrator
+Password
+ wmQb-AHmH!Q(I!9CpExqe=%gdXCRS8g9
+ 
+ 184.72.66.90
+============ds=============
+
+Private IP address
+ 10.0.2.8
+User name
+ Administrator
+Password
+ ye7Y!VYYs;s$PCkhM(zj47GnRtks-VPr
+
+
+** How to jump from one windows ec2 instance (in Public SN) to another windows ec2 instance  (in Private SN) 
+
+** How to jump from one Linux ec2 instance (in Public SN) to another Linux ec2 instance  (in Private SN)
+
+
+
+RDP -- windows to windows
+SSH client like Putty -- Windows to Linux
+SSH command line -- Linux to Linux
+
+Linux WS 
+54.90.197.60 - public-IP
+10.0.1.107 - private-ip
+
+Linux DS 
+- no public ip
+10.0.2.13
+
+ssh -i keyurnewec2.pem ec2-user@10.0.2.13
+
+- 
+rw- owner
+r-- owner group
+r-- public/all
+421
+0644
+
+0400
+
+-    ====>> d means it is a directory, - means it is a file
+rw-  =====>> user's / owner's  permission on this file
+r--	 =====>> user's group members / owner's group members permission on this file
+r--  =====>> others/world  permission on this file
+
+r -- read permission    === 4
+w -- write  			=== 2
+x -- execute			=== 1
+
+
+Private IP address
+ 10.0.1.165
+User name
+ Administrator
+Password
+ )pQu&-ZGLZdjNvYh.8x-yjB-llYuKT.j
+
+Private IP address
+ 10.0.2.95
+User name
+ Administrator
+Password
+ guS=MeGjAaii@QJa=eQtpSc@WKL;AyIL
+
+
+Permissions 0644 for 'key06OCTOBER.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+
+chmod 0400 /root/dir/dir2/nameoffile.pem
+
+Req- I am running Oracle Database on the Database server in my Private SN. 
+Oracle has released a upgrade patch which I need to execute on my DB. 
+In order to do so, i need to first download that patch from www.Oracle.com on my DB server. How can I do?
+
+Solution -- ??
+
+NAT Gateway -- Network Address Translation
+
+
+Public IP	54.242.51.134
+User name	Administrator
+Password	
+HuIwmQ=uoxl*S2OI-n.9zKpkfTlu@&cC
+
+Private IP	10.0.2.13
+User name	Administrator
+Password	
+@GZ8!U-Wei!u3c(KYoflhxX5fE7nq%G9
+
+
+
+
+What are the components on which NAT gateway's pricing will depnd
+------------------
+1. duration or no. of hours for which it will run
+2. amount of data transferred thru NAT gateway
+
+
+
+VPC Endpoint
+----------------------
+Req- i have a VPC, 2 subnets, one public and another private. 
+I want to access S3 from an instance in Private Subnet. How to do that?
+
+Solutions- 1. create a NAT gateway and place it in Public SN and then allow 
+Private intsncae connect S3 via NAT gateway.
+2. VPC endpoint -- very very cheap, secure, fast
+
+
+
+Req- VPC A, VPC B. Now i want to connect instance in VPC A to instance in VPC B.
+
+
+Solution-
+
+VPC Peering
+--------------
+1. Two VPCs which are to be peered must have non-overlapping CIDR block. 
+A peering connection cannot be created between 2 VPCs that have overlapping CIDRs. 
+Please select 2 VPCs which have distinct CIDRs.
+2. VPC Peering supports Global peering (both VPC in diff region) 
+and Regional peering ( both VPCs in same region)
+3. VPC peering supports intra-account (both VPCs in same AWS account) 
+peering and also inter-account (both VPCs in diff AWS account) peering
+4. There can be only one peering connection between any two VPCs
+5. VPC Peering does not supports TRANSITIVE PEERING.
+
+Requester - who will initiate the peering connection-
+Accepter - who will accept the peering connection-
+
+
+Cant be peered
+A - 10.0.0.0/16
+B - 10.0.0.0/16
+
+Cant be peered
+A - 10.0.0.0/16
+B - 10.0.1.0/24
+
+series1: numbers between 1 to 10 - 1,2,3,4,5,6,7,8,9,10
+series2: numbers between 1 to 36 - 1,2,3,4,5,6,7,8,9,10,11,12, ..., 33,34,35,36
+
+Are Series 1 and 2 overlapping? 
+
+non-overlapping
+A- 10.0.0.0/16
+B- 192.168.0.0/16
+
+non-overlapping
+A- 10.0.1.0/24
+
+		10.0.1.0
+		10.0.1.1
+		10.0.1.2
+		10.0.1.3
+		10.0.1.4
+		10.0.1.5
+		.
+		.
+		10.0.1.255
+		
+B- 10.0.2.0/24
+
+		10.0.2.0
+		10.0.2.1
+		10.0.2.2
+		10.0.2.3
+		10.0.2.4
+		.
+		.
+		10.0.2.255
+
+Private IP address
+ 10.0.1.225
+User name
+ Administrator
+Password
+ HQnD4sCiB*4ZYN@E@3UZ$.qaxil%Ln9I
+ 
+ 
+Private IP address
+ 192.168.2.123
+User name
+ Administrator
+Password
+ EEhY9KRheB.4&;u&N@k-Fr43TA3eqb4w
+
+VPN
+-----
+-----
+
+-- explain VPN, why to use it. Is it public or private network?
+-- online privacy
+-- some degree of anonymity---
+
+---location hide----
+surat --- vpn --- bangladesh ----
+human traffic - drugs
+
+Data in transit can be attacked by "Men-in-middle", eavesdropping
+
+Two types of VPN connection are possible--
+----
+1. site-to-site VPN - (site to site) (aws ds -> onprem ds)
+2. point-to-site VPN - you connect from office (you - aws / you - own ds)
+pos
+()
+
+
+1. VPG- Virtual private gateway ( this will be created at AWS VPC's side). 
+A virtual private gateway is the router on the Amazon side of the VPN tunnel.
+2. CGW - Customer Gateway - this will be at the customer's side i.e. on the on-prem side.
+
+Nord VPN -
+--number of users drastically increase
+
+ 
+
+Flow Logs
+----------
+A flow log enables you to capture information about the IP traffic going to and from network interfaces in your VPC.
+ Flow log data can be published to Amazon CloudWatch Logs or Amazon S3. After you've created a flow log, 
+ you can retrieve and view its data in the chosen destination.
+
+text file
+JSON
+Apace Avro
+Parquet
+
+
+--------	Monitoring in AWS		-------
+
+metrics
+
+Two fundamental components of moniting are
+----------
+1. metrics
+2. logs
+
+iops - number of operation
+throughput - amount/size of data
+
+2/2 check
+------
+1. System Status Checks
+2. Instance Status Checks
+
+Metrics-  
+plot of parameter with time
+
+CloudWatch- only one service in AWS to monitor resource
+
+2 types of moniting for EC2 instance
+---------------
+1. basic  -- is free of cost  -- will fetch datapoints every 5 min duration
+2. detailed -- has additional cost -- will fetch datapoints every 1 min duration
+
+3 states of Clodwatch Alarm
+----------------
+Insufficient data -- data gathering in progress
+OK -- the current value is well within the specified limit
+ALARM -- breached threshold
+
+
+dd if=/dev/zero of=/dev/null &
+4384
+ampersand
+
+** Cloudwatch can notify you + it can also take some actions.
+
+1. metrics
+2. Alarm -- diff state of alarm
+3. Events
+4. Log groups
+5. Log Insights
+
+
+=========
+
+CLOUDTRAIL
+----------------
+
+just to relate- it is the CCTV of your AWS account
+
+Continuously log your AWS account activity
+
+Use CloudTrail to meet your governance, compliance, 
+and auditing needs for your AWS accounts.
+
+Q- What is the diff between CLoudwatch and CLoudtrail?
+
+Ans- CLoudwatch-- it is a full fledges monitoring solution with which 
+I can monitor all AWS services. metrics,
+ logs etc..
+				-- has capabilities to take some action
+				
+CloudTrail -- is a trail/log capturing mechanism at the AWS Account level. 
+It is in general architecture.
+				-- it is a dumb service in a sense that it will capture the 
+				
+				event but cant act on it
+
+==========================
+
+
+ELB - Elastic Load balancer
+Is a ** managed service **. No need to worry for it's hardware config, 
+scalability, avaialbility
+you cant logn here.
+
+Problems of having LB in your data center
+------------------------
+1. difficult
+2. LB's avaialbility
+3. LB's Scalability
+
+
+AWS LB types
+-------------
+1. classic LB
+2. Application LB
+3. Network LB
+4. Gateway LB
+
+
+Listener  -- is a point/zone in your LB where Incoming traffic will enter. 
+A listener is a process that checks for connection requests, 
+using the protocol and port that you configured.
+
+Your load balancer will automatically perform health checks on your EC2 instances and only route traffic 
+to instances that pass the health check. 
+If an instance fails the health check, it is automatically removed from the load balancer. 
+
+Specify the Availability Zones to enable for your load balancer. 
+The load balancer routes traffic to the targets in these Availability Zones only. 
+You can specify only one subnet per Availability Zone. 
+You must specify subnets from at least two Availability Zones to increase the availability of your load balancer.
+
+
+Q -- can a SG be added as a source into another SG?
+Ans- yes, we have done the same in case of our LB. 
+My instances were not accepting any traffic other than LB.
+
+ALB
+--
+Your load balancer routes requests to the targets in this target group 
+using the protocol and port that you specify here. 
+It also performs health checks on the targets using these settings. 
+The target group you specify in this step will apply to all of the listeners configured on this load balancer. 
+You can edit or add listeners after the load balancer is created.
+
+
+Sticky session
+Cross zone load balancing
+
+Cross-zone load balancing
+--------------------------------
+The nodes for your load balancer distribute requests from clients to registered targets. 
+When cross-zone load balancing is enabled, each load balancer node 
+distributes traffic across the registered 
+targets in all enabled Availability Zones. 
+When cross-zone load balancing is disabled, 
+each load balancer node distributes traffic only across 
+the registered targets in its Availability Zone.
+
+
+Sticky session / session persistence / session affinity
+------------------------------------------------------------
+Session stickiness, a.k.a., session persistence, is a process in which a load balancer creates an 
+affinity between a client and a specific network server for the duration of a session, 
+(i.e., the time a specific IP spends on a website). 
+Using sticky sessions can help improve user experience and optimize network resource usage.
+
+With sticky sessions, a load balancer assigns an identifying attribute to a user, 
+typically by issuing a cookie or by tracking their IP details. Then, 
+according to the tracking ID, 
+a load balancer can start routing all of the requests of this 
+user to a specific server for the duration 
+of the session.
+
+you can use the sticky session feature (also known as session affinity), 
+which enables the load balancer to bind a user's session to a specific instance. 
+This ensures that all requests from the user during the session are sent to the same instance.
+
+
+============================
+
+
+============================
+
+Autoscaling
+---------------------
+
+Pricing- ASG will not have it's own cost components. 
+It will charge only for the underlying resource (EC2, CloudWatch) which will be created by ASG.
+
+There is no additional charge for AWS Auto Scaling. 
+You pay only for the AWS resources needed to run your applications 
+and Amazon CloudWatch monitoring fees.
+
+Amazon EC2 Auto Scaling helps maintain the availability of your applications
+
+Auto Scaling groups are collections of Amazon EC2 instances that enable automatic 
+scaling and fleet management 
+features. These features help you maintain the health and availability 
+of your applications.
+
+Autoscaling will also take care of downtimes. 
+If a instances gets terminated/stopped in the ASG then the ASG engine will bring a 
+new identical instance in place of the impaired/faulty instance.
+
+scalability -- to increase/decrease the infra ( no. of instances,
+ increasing RAM, CPU etc..)
+
+	1. horizontal -- the no of resource will increase/decrease
+			scale-out
+			scale-in
+	2. vertical -- the number of resource will remain constant
+			scale-up
+			scale-down
+
+Template -- is a bluepring/config file/ config details to create n different resources all of 
+exact same configuration
+
+step1. create a Launch Template. It will have all the necessary info to launch EC2 instances when needed. 
+It is standard approach.
+
+Step2. To create Autoscaling Group. It will have a group of instances which can grow/shrink as per the 
+demands (Scaling Policy).
+
+=====================
+
+
+=============	CloudFormation (CFT)	===============
+
+Infrastructure-as-code
+-----------------
+to maintain my infra as a code. using a piece of code I can create my infra. 
+it will help in migration of infra from one enviornment to 
+another like from development env to Production env.
+
+2 components of CFT
+---------
+1. template -- a piece of code written in JSON/YAML to spin up my infra. 
+Every stack is based on a template. A template is a JSON or YAML file that contains configuration information about the AWS resources you want to include in the stack.
+A template is a JSON or YAML file that describes your stack's resources and properties.
+
+2. stack -- is the actual infra or group of infra which will be created by the template
+
+
+Parameters--  are defined in your template and allow you to input custom values when you create or update a stack.
+
+YAML- YAML is not a markup language
+
+
+interpreter -- to convert source code into byte code ---  .py   --->  .pyc
+compiler
+
+
+
+1. Code your infrastructure using the CloudFormation template language 
+in the YAML or JSON format, or start from many available sample templates.
+2. Use AWS CloudFormation via the browser console, 
+command line tools, or APIs to create a stack based on your template code.
+3. AWS CloudFormation provisions and configures the stacks and resources y
+ou specified in your template.
+
+
+
+**  Change Set
+-----------
+
+if you already have a STACK and if you want to change the STACK using a new TEMPLATE.. 
+it is possible
+
+
+LAMP stack- Linux, Apache HTTP, MySQL, PHP
+
+
+
+Req- there is web developer. 
+He has got a website created in any one of the programming language. 
+He is looking for aws solution to host his website. How can you help him?
+
+AWS ElasticBeanstalk (EB)
+--------------------
+IAAS -- Infrastructure-as-a service
+PAAS service- patform as a service -- 
+SAAS -- software as a service -- payroll system, chatbot system
+
+End-to-end web application management.
+
+Deploy web application
+java, .Net, Python, Node.js, Ruby, Go, PHP
+
+you have to simply upload your code and EB
+
+EB will deploy and Run code (website)
+EB will do load balancing, auto-scaling, inbuilt healt-check monitoring
+
+Pricing- There’s no additional charge for Elastic Beanstalk. 
+You pay for Amazon Web Services resources that 
+we create to store and run your web application, 
+like Amazon S3 buckets and Amazon EC2 instances.
+
+
+
+AWS Lightsail
+--------------
+
+=================================
+
+Three diff types of Data
+1. structured data -- can be represented in the form of rows & columns
+2. semi-structured data -- which needs little bit massaging/manipulation/processing to convert them into structured data. JSON, XML, CSV
+3. unstructured data -- which can neved be converted in rows & columns. Image, Audio, Video, Location etc..
+
+Oracle, Microsoft's SQL Server, PostgreSQL, Terradata, MySQL, MariaDB, NOSQL databases( mongoDB, Cassandra, DynamoDB, CoucheDB)
+etc.
+
+SSMS- sql server management studio
+
+SQL- the language to query (read/write/modify etc..) your database 
+
+Database- where you can store structured data
+---------------
+
+AWS RDS ( Relational Database services) -- it is a fully managed Database where you need not worry for the infrastructure
+
+
+
+Synchronous
+asynchronous
+
+sync
+
+
+
+
+4	5	6	7	8	9	10
+
+SQS -- simple queue service
+-----------
+
+Two types of Queue
+---
+1. Standard -- best effort ordering, chances of duplicacy
+2. FIFO- first in first out -- it is a new offering- order will always be maintained -- no duplicate delivery
+
+
+
+m1
+m2 -- complex task
+m3 -- a very simple, 1s task
+
+
+SNS - Simple Notification service
+---------------------------
+Pub/sub messaging 
+
+Publish
+Sunscribe
+
+Create topic
+
+A topic is a message channel. When you publish a message to a topic, 
+it fans out the message to all subscribed endpoints.
+
+
+mainframe -
+on prem ds - 
+vm - hypervisor - ec2 -
+serverless
+
+Serverless
+------------
+is a new concept in cloud where you dont need to create/configure/access/login 
+on the server
+
+
+DC - server  -------->> EC2 instances   ------->> Serverless
+
+** serverles does not means that there are no servers. 
+Servers will be managed by a vendor (AWS/Azure) 
+to provide compute service to you.
+
+AWS LAmbda -- a serverless COMPUTE service -- 
+lets you run code without thinking about servers.
+----------
+
+
+You pay only for the compute time that you consume — 
+there is no charge when your code is not running. 
+With Lambda, you can run code for virtually any type of application or backend service, 
+all with zero administration.
+
+Lambda scales up and down automatically to handle your workloads, 
+and you don't pay anything when your code isn't running.
+
+1. when/how to execute this function -- 
+manual trigger. one step further is to SCHEDULE it
+2. How to achieve EVENT based trigger to the function-- 
+so that Image can be converted into Thumbnail in Real-time without any time lag -- 
+the moment a new image will be uploaded into S3 bucket, 
+S3 will then send a trigger to the Lambda function to execute 
+and convert it into thumbnail
+3. Why not scheduling -- you then need to run the Ec2 instance for 24 hours
+4. is cost saving compared to Ec2. 
+Lambda will only charge you for the time your function will remain running.
+5. lambda will auto-scale itself in response to the demand
+6. The max execution time which is allowed is 15 min.
+7. support for all industry popular programming languages
+
+
+Lambda Script to do start/stop ec2 instance
+-------------------
+
+import boto3
+region = 'ap-south-1'
+instances = ['i-01a862814f538b027','i-0d4ea75fa266b44fe']
+ec2 = boto3.client('ec2', region_name=region)
+def lambda_handler(event, context):
+    ec2.stop_instances(InstanceIds=instances)
+    print('stopped your instances: ' + str(instances))
+
+----------------------------------
+
+Req- I need to run a script on 100+ Ec2 instances.
+
+AWS SYstems Manager
+----------------------
+AWS Systems Manager Run Command
+
+AmazonSSMManagedInstanceCore  == Role
+
+The final command which will be executed on my EC2 instances--
+
+aws ssm send-command --document-name "AWS-RunShellScript" 
+--document-version "1" 
+--targets '[{"Key":"InstanceIds","Values":["i-0c2d22913ed2f4faf","i-0a2ce69cb9ef70160","i-0a551189532fad841"]}]' 
+--parameters '{"workingDirectory":[""],"executionTimeout":["3600"],
+"commands":["#!/bin/bash","sudo su -","yum update -y","yum install httpd -y","systemctl start httpd.service","systemctl enable httpd.service","hostname >> /var/www/html/index.html","echo \"Hello Radhe Krishna...\" >> /var/www/html/index.html"]}' 
+--comment "This command will install apache and deploy demo web app" 
+--timeout-seconds 600 
+--max-concurrency "50" 
+--max-errors "0" 
+--region ap-south-1
+
+
+
+AWS Inspector
+---------------
+
+Amazon Inspector enables you to analyze the behavior of your AWS resources and helps you identify potential security issues.
+
+1. Inspector will install an AGENT on your EC2 instance where you want to check the security arrangements. 
+To install Inspector Agent, the Inspector will use SYSTEMS MANAGER to do that.
+2. Once agent is installed then Inspector will RUN the ASSESSMENT. Using Industry specified Benchmarks.
+3. After completion of ASSESSMENT run, Inspector will generate a report for you.
+4. ** preserve these reports for audit of your own organzation **
+
+cve --benchmark
+cis
+
+Agent Deployment: Inspector assessments require an agent to be installed on your EC2 instances. 
+We will automatically install the agent for instances that allow System Manager Run Command.
+
+
+Amazon Macie
+-----------------
+
+Automatically discover sensitive data across all of your organization's S3 buckets.
+Review detailed findings to take remediation action.
+
+Amazon Macie is a data security and data privacy service that uses machine learning to help you identify and protect your sensitive data in AWS.
+
+A job can analyze objects in one or more S3 buckets. 
+
+The estimated cost to analyze a bucket is based on the size and types of objects in the bucket.
+
+
+
+1234 XXXX XXXX XX78
+
+PII Data -- Personally identifiable information
+
+Masking -- 
+
+HIPAA
+PCI-DSS
+
+PEP
+
+remedy
+
+
+
+Route 53
+------------------
+------------
+
+it is DNS service from AWS.
+
+What is DNS? Domain Name system  -- 
+Doamin name is a UNIQUE NAME associated with your webserver.
+Need to purchase domain name. From Domain name Registrars ( GoDaddy, Google, AWS, microsoft etc..)
+Doamin names must be unique.
+
+https://www.freenom.com/en/freeandpaiddomains.html --- free domain name purchace
+
+www.keyurjava.xyz
+
+A hosted zone is a container that holds information about how you want to route traffic for a domain, 
+such as example.com, and its subdomains.
+
+Create a Hosted Zone, it should be Public Hosted Zone.
+
+
+
+ns-1967.awsdns-53.co.uk
+ns-1133.awsdns-13.org
+ns-193.awsdns-24.com
+ns-686.awsdns-21.net
+
+ns - name server
+shared 
+A-record  --> used to map domain name with IPV4
+AAAA-record ---> to map domain name with IPv6
+
+CNAME record ---> Canonical name record -- to map a domain name to a different subdomain/domain
+
+TLD - Top Level Domain
+.com
+.org
+.in
+etc
+-------------------
+
+Dynamo DB
+
+A fast and flexible NoSQL database service for any scale
+
+	SQL - RDBMS - RDS Service in AWS - MySQL / Oracle / Postgres SQL
+	
+	department
+	
+	deptId,deptName
+	11,IT
+	12,HR
+	
+	employee - fk - department table
+	
+	empId,name,city,mobileNo,email,deptId,hobby
+	1,keyur,aaa,2222,k@g.c,11,null
+	2,keyur,aaa,2222,k@g.c,12,null
+	3,keyur,aaa,2222,k@g.c,11,null
+	4,keyur,aaa,2222,k@g.c,12,cricket
+
+	employee_salary
+	emp_salary_id,empId,salary
+		
+	select e.name.es.salary from employee e,employee_salary es where e.empId=es.empId;	
+	
+	=============
+	
+	
+	No SQL - AWS Service Dynamo DB (Mongo DB / cassandra)
+		
+	if i want to store Employee Information
+
+	employee.find("11")
+	employee
+	
+		{
+			"name":"keyur"
+			"city":"keyur"
+			"mobileNo":"keyur"
+			"email":"keyur"
+			"deptId":"keyur"
+			"hobby":"keyur"
+		},
+		{
+			"name":"keyur"
+			"city":"keyur"			
+		},
+		{
+			"name":"keyur"
+			"city":"keyur"
+			"mobileNo":"keyur"
+			"email":"keyur"
+			"deptId":"keyur"
+			"hobby":"keyur"
+			"email":"keyur"
+			"deptId":"keyur"
+			"hobby":"keyur"
+		},
+	
+	
+	
+	
+	
+	
+	
+
+----
+
+Final Project.
+
+Practice Exam
+
+https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/
